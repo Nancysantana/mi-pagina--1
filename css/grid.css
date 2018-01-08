@@ -37,46 +37,41 @@ width: 50%;
   #bus {
     height: 100px;
   }
-    .col-6 {
-      height: 100px;
-      width: 100%;
-      /* background: red; */
-    }
-
-    .ocultar {
-      display: none;
-    }
-    /* .name {
-      width: 100%;
-    } */
-    .name {
-      height: 100px;
-      width: 200%;
-    }
-    .name > p {
-      font-size: 30px;
-      margin: 0px 100px;
-      height: auto;
-      width: 50%;
-    }
-    /* header {
-      display: flex;
-    } */
-     .conteiner {
-      width: 100%;
-    }
-
   [class*='col-'] {
     padding: 12px;
-      width: 100%;
-    }
-    .menu {
-      text-align: center;
-      height:100px;
-      width: 100%;
-    }
-    .what > button {
-      width: 30%;
-    }
+    width: 100%;
+  }
+  .conteiner {
+    width: 100%;
+  }
+  .col-6 {
+    height: 100px;
+    width: 100%;
+    /* background: red; */
+  }
+  .name {
+    height: 100px;
+    width: 100%;
+  }
+  .name > p {
+    font-size: 30px;
+    margin: 0px 100px;
+    height: auto;
+    width: 50%;
+  }
+  .ocultar {
+    display: none;
+  }
+  /* header {
+    display: flex;
+  } */
+  .menu {
+    text-align: center;
+    height:100px;
+    width: 100%;
+  }
+  .what > button {
+    width: 30%;
+  }
 
 }
