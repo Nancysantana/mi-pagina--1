@@ -15,4 +15,4 @@ Realizar el diseño de una pagina responsive usando grid.
 
 
   <!-- Nota: Mi media query no funciono :( intentende dando un color al body en cierta medida y no lo hace. hacer unas columnas que pasaran a un ancho de 100% tampoco hacia el cambio.
-  - si tengo elasado mi archivo y mi viewport en meta, lo revise varias veces y no encontre el error.  -->
+  - si tengo elazado mi archivo y mi viewport en meta, lo revise varias veces y no encontré el error.  -->
