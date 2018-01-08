@@ -5,7 +5,7 @@
 Realizar el diseño de una pagina responsive usando grid.
 
 
-![Texto alternativo](../assets/images/pagina.png).
+![Texto alternativo](assets/images/pagina.png).
 
 1. Crearemos nuestras carpetas y Archivos.
  - En nuetro Archivo html colocaremos la estructura de la pag. web:
@@ -17,7 +17,7 @@ Realizar el diseño de una pagina responsive usando grid.
  - Con "@media screen and ()" estableseremos la medida maxima ala que la pagina comensara a realizar los cambios de posicion de su contenido.  
 
 
- ![Texto alternativo](../assets/images/responsive.png).
+ ![Texto alternativo](assets/images/responsive.png).
 
 
   <!-- Nota: Mi media query no funciono :( intentende dando un color al body en cierta medida y no lo hace. hacer unas columnas que pasaran a un ancho de 100% tampoco hacia el cambio.
