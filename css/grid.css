@@ -23,8 +23,8 @@
 /* .col-6 {
 padding: 15px;
 height: 50px;
-width: 50%; */
-}
+width: 50%;
+}*/
 /*
 @media (max-width: 800px){
   .conteiner {
@@ -33,24 +33,50 @@ width: 50%; */
 } */
 
 /* comensamos media query  */
-@media screen and (min-width: 880px) {
-    body {
-        background-color: red;
+@media (max-width: 470px) {
+  #bus {
+    height: 100px;
+  }
+    .col-6 {
+      height: 100px;
+      width: 100%;
+      /* background: red; */
+    }
+
+    .ocultar {
+      display: none;
+    }
+    /* .name {
+      width: 100%;
+    } */
+    .name {
+      height: 100px;
+      width: 200%;
+    }
+    .name > p {
+      font-size: 30px;
+      margin: 0px 100px;
+      height: auto;
+      width: 50%;
     }
     /* header {
       display: flex;
     } */
-    .conteiner {
+     .conteiner {
       width: 100%;
     }
-    [class*='col-'] {
+
+  [class*='col-'] {
+    padding: 12px;
       width: 100%;
     }
     .menu {
-      width: 100%;
+      text-align: center;
       height:100px;
+      width: 100%;
     }
-    a {
-      display: none;
+    .what > button {
+      width: 30%;
     }
+
 }
