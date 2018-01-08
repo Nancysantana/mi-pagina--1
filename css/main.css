@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+/* al pasar el mous cambiara de color */
+a:hover {
+  background: #afb0b1;
+}
+
+body {
+  font-family:sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* le damos estilo alos botones de la cuarta seccion */
+button {
+  background: #007bff;
+  border-radius: 5px;
+  color: #fff;
+  height: 35px;
+  /* margin-left: 15px;
+  width: 150px; */
+}
+
+h1 {
+  /* display: inline-block; */
+  /* float: left; */
+  color: #fff;
+  margin: 0px 100px;
+  padding: 0;
+  /* font-size: 15px; */
+  /* padding: 20px 100px; */
+}
+
+header {
+  background-color: #343a40;
+  height: 50px;
+}
+
+/* i {
+  color: #fff;
+  display: none;
+} */
+
+/* la imagen abarcara el todo el ancho de su contenedor */
+img {
+  width: 100%;
+}
+
+#footer {
+  background: #343a40;
+  color: #fff;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+#bus {
+  background-color: #fff;
+  height: 200px;
+  text-align: center;
+  width: 100%;
+}
+
+.color {
+  background-color: #f7f7f7;
+}
+
+.contact {
+  background-color: #fff;
+  /* width: 100%; */
+}
+
+.conteiner {
+  background: red;
+  /* height: 100vh; */
+  max-width: 1200px;
+  margin:0 auto;
+  width: 100%;
+}
+
+.mail {
+  color:  #007bff;
+}
+
+.name  {
+  /* colocamos una imagen de fondo en el contenidor que tiene la clase name */
+  background-image: url("http://dummyimage.com/1920x400");
+  background-size: 100%;
+  /* no repetiremos la imagen varias veces */
+  background-repeat: no-repeat;
+  height: 200px;
+  /* opacamos la imagen */
+  opacity: .7;
+  width: 100%;
+}
+
+.name > p {
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+  /* margin-top: 4px; */
+}
+
+.what {
+  background-color: #fff;
+  /* width: 100%; */
+}
+
+.what > button {
+  background: #007bff;
+  border-radius: 7px;
+  color: #fff;
+  height: 50px;
+  width: 20%;
+}
